@@ -5,9 +5,9 @@ So, development and testing seem perfectly synergetic! :)
 TASK 2: selectors
 
 Subtask 1:
-<sup>
-panel_heading_xpath
-//*[@id="__next"]/form/div/div[1]/h5
+
+\panel_heading_xpath\
+\//*[@id="__next"]/form/div/div[1]/h5\
 //*[text()="Scouts Panel"]
 //h | //child::div/h5
 
@@ -35,4 +35,4 @@ sign_in_button_xpath
 //*[@id="__next"]/form/div/div[2]/button/span[1]
 //*[text()="Sign in"]
 //child::button/span[2]
-</sup>
+
